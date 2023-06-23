@@ -1,0 +1,7 @@
+---
+layout: layout.html
+---
+{% for test in collections.test %}
+<h2> <a href = "{{ test.url }}">{{ test.data.title}}</a></h2>
+<p>{{ test.content }}</p>
+{% endfor %}
