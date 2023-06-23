@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('lanjeth.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    background-color: #578b4f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #151515;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 20px;
+    }
+  }
